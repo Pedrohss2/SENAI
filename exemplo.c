@@ -1,14 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-
-
 /*
 	Desenvolva em C, uma função que receba 2 números inteiros e retorne a
 	multiplicação dos 2.
 */
-
 
 //Funçaõ que recebe dois inteuiros e retona a multiplicação deles
 int multiplicacao(int numeroUm, int numeroDois) {
@@ -16,12 +12,12 @@ int multiplicacao(int numeroUm, int numeroDois) {
 };
 
 // Funçaõ que converte de Fahrenheit para celcius e vice e versa.
-int converter(char tipo, float temperatura) {
-	if(tipo == 'C') {
+int converter(char letra, float temperatura) {
+	if(letra == 'C') {
 		 int far =  temperatura * 1.8 + 32;
 		 return far;
 	}
-	else if(tipo == 'F') {
+	else if(letra == 'F') {
 		int celcius =  (temperatura-32) / 1.8;
 		return celcius;
 	}
@@ -83,7 +79,6 @@ void salario(double salarioFuncionario) {
 
 
 int main() {
-
 	
 	return 0;
 	
