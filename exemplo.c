@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
-   Desenvolva em C, uma função que receba 2 n�meros inteiros e retorne a
+   Desenvolva em C, uma função que receba 2 números inteiros e retorne a
    multiplicação dos 2. 
 */
 
@@ -23,7 +23,7 @@ int converter(char letra, float temperatura) {
 	}
 }
 
-// Função que verifica se o numero � positivo ou negativo
+// Função que verifica se o numero é positivo ou negativo
 int positivoOuNegativo(int primeiroNumero) {
 	int maiorQueZero = 0;
 	int menorQueZero = 0;
@@ -53,7 +53,7 @@ void salario(double salarioFuncionario) {
 	if(salarioFuncionario <= 900.00) {
 		valorDoAumento += salarioFuncionario * 0.20;
 		valorAumento = salarioFuncionario + salarioFuncionario  * 0.20;
-		printf("O percentual �: 0.20");
+		printf("O percentual eh: 0.20");
 	}
 
 	else if(salarioFuncionario >= 900.00 && salarioFuncionario < 1550.00) {
@@ -64,12 +64,12 @@ void salario(double salarioFuncionario) {
 	else if(salarioFuncionario > 1550.0 && salarioFuncionario <= 2300.0) {
 		valorDoAumento += salarioFuncionario * 0.10;
 		valorAumento = salarioFuncionario + salarioFuncionario * 0.10;
-		printf("O percentual �: 0,10");
+		printf("O percentual eh: 0,10");
 	}
 	else {
 		valorDoAumento += salarioFuncionario * 0.5;
 		valorAumento =salarioFuncionario + salarioFuncionario * 0.5;
-		printf("O percentual �:, 0.5");
+		printf("O percentual eh:, 0.5");
 	}
 	
 	printf("O valor do aumento eh: %f", valorDoAumento );
