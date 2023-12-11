@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /*
-   Desenvolva em C, uma fun��o que receba 2 n�meros inteiros e retorne a
-   multiplica��o dos 2. 
+   Desenvolva em C, uma função que receba 2 n�meros inteiros e retorne a
+   multiplicação dos 2. 
 */
 
-//Fun�a� que recebe dois inteiros e retorna a multiplica��o deles
+//Função que recebe dois inteiros e retorna a multiplicação deles
 int multiplicacao(int numeroUm, int numeroDois) {
 	return numeroUm * numeroDois;
 };
 
-// Fun�a� que converte de Fahrenheit para celcius e vice e versa.
+// Função que converte de Fahrenheit para celcius e vice e versa.
 int converter(char letra, float temperatura) {
 	if(letra == 'C') {
 		 int far =  temperatura * 1.8 + 32;
