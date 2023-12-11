@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /*
-	Desenvolva em C, uma função que receba 2 números inteiros e retorne a
-	multiplicação dos 2.
+   Desenvolva em C, uma funï¿½ï¿½o que receba 2 nï¿½meros inteiros e retorne a
+   multiplicaï¿½ï¿½o dos 2. 
 */
 
-//Funçaõ que recebe dois inteuiros e retona a multiplicação deles
+//Funï¿½aï¿½ que recebe dois inteiros e retorna a multiplicaï¿½ï¿½o deles
 int multiplicacao(int numeroUm, int numeroDois) {
 	return numeroUm * numeroDois;
 };
 
-// Funçaõ que converte de Fahrenheit para celcius e vice e versa.
+// Funï¿½aï¿½ que converte de Fahrenheit para celcius e vice e versa.
 int converter(char letra, float temperatura) {
 	if(letra == 'C') {
 		 int far =  temperatura * 1.8 + 32;
@@ -23,7 +23,7 @@ int converter(char letra, float temperatura) {
 	}
 }
 
-// Verificar se o numero é positivo ou negativo
+// FunÃ§Ã£o que verifica se o numero ï¿½ positivo ou negativo
 int positivoOuNegativo(int primeiroNumero) {
 	int maiorQueZero = 0;
 	int menorQueZero = 0;
@@ -38,13 +38,13 @@ int positivoOuNegativo(int primeiroNumero) {
 	}
 }
 
-// Verifica a media de duas notas
+// FunÃ§Ã£o que verifica a media de duas notas
 int media(int notaUm, int notaDois) {
 	int media = (notaUm + notaDois) / 2;
 	return media;
 }
 
-// Calcula a porcentagem de um funcionario.
+// FunÃ§Ã£o que Calcula a porcentagem de um funcionario.
 void salario(double salarioFuncionario) {
 	double base = salarioFuncionario;
 	double valorDoAumento;
@@ -53,23 +53,23 @@ void salario(double salarioFuncionario) {
 	if(salarioFuncionario <= 900.00) {
 		valorDoAumento += salarioFuncionario * 0.20;
 		valorAumento = salarioFuncionario + salarioFuncionario  * 0.20;
-		printf("O percentual é: 0.20");
+		printf("O percentual ï¿½: 0.20");
 	}
 
 	else if(salarioFuncionario >= 900.00 && salarioFuncionario < 1550.00) {
 		valorDoAumento += salarioFuncionario * 0.15;
 		valorAumento = salarioFuncionario + salarioFuncionario * 0.15;
-		printf("O percentual é: 0.15");
+		printf("O percentual ï¿½: 0.15");
 	}
 	else if(salarioFuncionario > 1550.0 && salarioFuncionario <= 2300.0) {
 		valorDoAumento += salarioFuncionario * 0.10;
 		valorAumento = salarioFuncionario + salarioFuncionario * 0.10;
-		printf("O percentual é: 0,10");
+		printf("O percentual ï¿½: 0,10");
 	}
 	else {
 		valorDoAumento += salarioFuncionario * 0.5;
 		valorAumento =salarioFuncionario + salarioFuncionario * 0.5;
-		printf("O percentual é:, 0.5");
+		printf("O percentual ï¿½:, 0.5");
 	}
 	
 	printf("O valor do aumento eh: %f", valorDoAumento );
@@ -83,6 +83,3 @@ int main() {
 	return 0;
 	
 }
-
-
-

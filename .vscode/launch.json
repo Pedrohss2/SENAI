@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/pedrohenrique/Exercicios-SENAI",
-      "program": "/home/pedrohenrique/Exercicios-SENAI/build/Debug/outDebug",
+      "cwd": "/home/pedrohenrique/Documentos/SENAI",
+      "program": "/home/pedrohenrique/Documentos/SENAI/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
