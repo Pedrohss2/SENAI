@@ -8,10 +8,10 @@
     o menor valor e a média.
 */
 void lerDezNumeros() {
-    int maior, menor, media, numeros;
 
-    for(int i = 1; i <= 10; i++) {
-        printf("Digite dez numero: ");
+    int maior = 0, menor = 0, media = 0, numeros;
+
+    for(int i = 1; i < 10; i++) {
         scanf("%d ", numeros);
 
         if(numeros > maior) {
@@ -20,8 +20,11 @@ void lerDezNumeros() {
         else if(numeros < menor) {
             menor = numeros;
         }
+         media += media + numeros;
     }
-    media = (maior  + menor) / 2;
+
+    media = (media / 10);
+
 
     printf("Maior eh %d", maior);
     printf("Menor eh %d", menor);
@@ -59,7 +62,6 @@ int main() {
 
         switch(opcao) {
             case 1:
-                printf("Assecando o exercicio 01 \n");
                 lerDezNumeros();
                 break;
             case 2:
